@@ -39,7 +39,7 @@ export class EngineService {
     this.scene.add(this.light);
 
     let geometry = new THREE.BoxGeometry(1, 1, 1);
-    let material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    let material = new THREE.MeshBasicMaterial({ color: 0xffff00 });
     this.cube = new THREE.Mesh( geometry, material );
     this.scene.add(this.cube);
 
